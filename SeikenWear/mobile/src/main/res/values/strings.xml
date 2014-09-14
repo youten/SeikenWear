@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SeikenWear</string>
+
+    <!-- pref -->
+    <string name="pref_ip_address_title">IP Address</string>
+    <string name="pref_ip_address_summary">relay to server ip address.</string>
+    <string name="pref_port_title">Port</string>
+    <string name="pref_port_summary">relay to server port.</string>
+</resources>

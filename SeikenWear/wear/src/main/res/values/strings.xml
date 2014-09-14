@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SeikenWear</string>
+    <string name="service_on_text">Service ON</string>
+    <string name="service_off_text">Service OFF</string>
+
+</resources>

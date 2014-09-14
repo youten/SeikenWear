@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WearActivity"
+    tools:deviceIds="wear_round">
+
+    <ToggleButton
+        android:id="@+id/service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textOff="@string/service_off_text"
+        android:textOn="@string/service_on_text" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/service_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name" />
+</RelativeLayout>
